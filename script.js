@@ -6,7 +6,7 @@ let no = 4;
 let yrs = 3;
 let amt = ppl*(1+(roi/no))**(no*yrs)
 
-console.log("Principal Amount:", ppl);
+console.log("Principal Amount: ₹", ppl, "/-");
 console.log("Rate of Interest:", roi*100, "%");
 console.log("Number of times the interest is compounded per year:", no);
 console.log("Duration of locking:", yrs, "Years");
